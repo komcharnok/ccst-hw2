@@ -1,0 +1,117 @@
+.main-wrapper {
+    /* background-color: rgb(172, 128, 213); */
+    height: 100vh;
+    /*หน่วยสูงเท่าขนาดหน้าจอ*/
+    /* background-image: url("/lab06_layout/img/bg.webp"); */
+    background-image: linear-gradient(to bottom, #000b, #0002, #000b);
+    /* justify-content: space-between; */
+
+}
+
+body {
+    /* background-color: aqua;  สีพื้นหลัง */
+    /* border: 1px solid red; สีเส้นขอบของbody */
+    /* background-image: url("/lab06/img/bg.webp"); */
+    background-image: url("/lab02_tinder/img/bg.webp");
+
+    margin: 0px;
+}
+
+h1 {
+    margin: 0px;
+    /*กำหนด mg เป็น 0*/
+}
+
+
+.logoandmenu {
+    color: white;
+    margin-right: auto;
+    /* margin-left: auto; */
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    
+
+    & h1 {
+        align-items: flex-end;
+        font-size: 2.5em;
+
+
+    }
+}
+.logoandmenu a {
+    color: white;
+}
+.lomo  {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+
+    padding: 10px 40px;
+    font-size: 1.5rem;
+    border: 0px;
+    background-color: rgb(247, 246, 246);
+    
+}
+.lomo .a {
+    color: rgb(17, 14, 14);
+}
+.sonic a {
+    color: white;
+    
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    gap: 20px;
+    justify-content: flex-end;
+}
+header .a {
+    color: white;
+}
+
+nav {
+    display: inline-flex;
+    width: 0px;
+    gap: 16px;
+
+}
+
+.menu {
+    gap: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+
+}
+
+.pd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+}
+.btnregis {
+    background: linear-gradient(to right, hsl(310, 100%, 50%), #ff3213);
+    font-size: 18px;
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 16px;
+    color: white;
+    
+}
+
+#h1 {
+    color: white;
+    font-size: 80px;
+}
