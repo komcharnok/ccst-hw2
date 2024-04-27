@@ -12,7 +12,7 @@ body {
     /* background-color: aqua;  สีพื้นหลัง */
     /* border: 1px solid red; สีเส้นขอบของbody */
     /* background-image: url("/lab06/img/bg.webp"); */
-    background-image: url("img/bg.webp");
+    background-image: url("bg.webp");
 
     margin: 0px;
 }
