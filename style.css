@@ -2,7 +2,7 @@
     /* background-color: rgb(172, 128, 213); */
     height: 100vh;
     /*หน่วยสูงเท่าขนาดหน้าจอ*/
-    /* background-image: url("/lab06_layout/img/bg.webp"); */
+    /* background-image: url("img/bg.webp"); */
     background-image: linear-gradient(to bottom, #000b, #0002, #000b);
     /* justify-content: space-between; */
 
