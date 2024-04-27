@@ -1,25 +1,15 @@
-.main-wrapper {
-    /* background-color: rgb(172, 128, 213); */
-    height: 100vh;
-    /*หน่วยสูงเท่าขนาดหน้าจอ*/
-    /* background-image: url("img/bg.webp"); */
+.main-wrapper {    
+    height: 100vh;   
     background-image: linear-gradient(to bottom, #000b, #0002, #000b);
-    /* justify-content: space-between; */
-
 }
 
-body {
-    /* background-color: aqua;  สีพื้นหลัง */
-    /* border: 1px solid red; สีเส้นขอบของbody */
-    /* background-image: url("/lab06/img/bg.webp"); */
-    background-image: url("bg.webp");
-
+body {   
+    background-image: url("img/bg.webp");
     margin: 0px;
 }
 
 h1 {
-    margin: 0px;
-    /*กำหนด mg เป็น 0*/
+    margin: 0px;   
 }
 
 
@@ -35,8 +25,6 @@ h1 {
     & h1 {
         align-items: flex-end;
         font-size: 2.5em;
-
-
     }
 }
 .logoandmenu a {
